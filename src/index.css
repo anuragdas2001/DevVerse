@@ -1,13 +1,78 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.blog-area {
+  /* border: 1px solid black; */
+  /* border-radius: 10px; */
+  margin: 5px;
+  padding: 5px;
+}
+.title {
+  height: 50px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0px 0px 10px 10px;
+  padding: 4px;
+}
+.content {
+  height: 150px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0px 0px 10px 10px;
+  padding: 4px;
+}
+.Postbtn {
+  height: 35px;
+  width: 50px;
+  position: absolute;
+  margin-left: 22%;
+  background-color: aquamarine;
+  border-radius: 5%;
+  border: none;
+}
+.blogs {
+  /* height:10%;
+  width:40%;
+  border: 1px solid black; */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  list-style: none;
+}
+.blog-heading {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 50px;
+}
+
+.blog-list {
+  height: 20%;
+  min-width: 27rem;
+  width: 40%;
+  position: relative;
+  border: 0.1px solid cadetblue;
+  margin:0px 0px 5px -20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.deleteIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: red;
 }
